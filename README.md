@@ -1,5 +1,5 @@
 # MLOPS
-Complete Automation of ML/DL model using Jenkins &amp; Docker
+## Complete Automation of ML/DL model using Jenkins & Docker
 
 Most important thing to keep in mind is to change the names of the files after pull. 
 * Dockerfile(ml) -> Dockerfile
@@ -8,4 +8,4 @@ Most important thing to keep in mind is to change the names of the files after p
 
 * train(ml).py   -> train.py
 * train(dl).py   -> train.py
-### This is so because we will provide environment per code basis, so in one go only 1 file goes to the environment
+### This is so because we will provide environment per code basis, so in one go only 1 file goes to the environment.
