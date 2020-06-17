@@ -21,7 +21,7 @@ if acc3<85:
     elif x3==4:
         y = 'model.add(Dense(units=8, activation=\"relu\"))'
     else:
-        print("MAAF KARDO")
+        print("Can't do more!!")
         exit()
     os.system("sed -i '/softmax/ i {}' /code/train.py".format(y))
     os.system("curl -u admin:Daksh2000$ http://192.168.99.101:8080/view/mlops_task/job/mlops_job1/build?token=daksh")
